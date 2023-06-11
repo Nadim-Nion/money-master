@@ -46,7 +46,7 @@
                             <label class="mx-2" for="">Income:
 
                             </label>
-                            <input type="text" class="border-2 bg-slate-200">
+                            <input id="income-input" type="text" class="border-2 bg-slate-200">
 
                         </div>
 
@@ -59,29 +59,32 @@
                             <label class="mx-4" for="">Food:
 
                             </label>
-                            <input type="text" class="border-2 bg-slate-200">
+                            <input id="food-input" type="text" class="border-2 bg-slate-200">
                         </div>
                         <div class="flex items-center mb-4">
                             <label class="mx-4" for="">Rent:
 
                             </label>
-                            <input type="text" class="border-2 bg-slate-200">
+                            <input id="rent-input" type="text" class="border-2 bg-slate-200">
                         </div>
                         <div class="flex items-center">
                             <label class="mx-4" for="">Cloth:
 
                             </label>
-                            <input type="text" class="border-2 bg-slate-200">
+                            <input id="cloth-input" type="text" class="border-2 bg-slate-200">
                         </div>
 
 
                         <!-- Calculate Button -->
                         <div class="mt-5">
-                            <button class="bg-sky-600 text-white font-medium px-10 py-2 rounded">Calculate</button>
+                            <button id="calculate-btn"
+                                class="bg-sky-600 text-white font-medium px-10 py-2 rounded">Calculate</button>
                         </div>
 
-                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Total Expenses: <span>00</span></h4>
-                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Balance: <span>00</span></h4>
+                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Total Expenses: <span
+                                id="total-expenses">00</span></h4>
+                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Balance: <span id="balance">00</span>
+                        </h4>
 
 
 
@@ -90,16 +93,21 @@
                             <div class="flex items-center md:flex-row flex-col">
                                 <div>
                                     <label class="mr-4" for="">Save:</label>
-                                    <input type="text" class="border-2 bg-slate-200 inline">
+                                    <input id="save-input" type="text" class="border-2 bg-slate-200 inline">
                                 </div>
 
                                 <span class="mx-2">%</span>
-                                <button class="bg-sky-600 text-white font-medium px-14 py-0.5 rounded">Save</button>
+
+                                <!-- Save Button -->
+                                <button id="save-btn"
+                                    class="bg-sky-600 text-white font-medium px-14 py-0.5 rounded">Save</button>
                             </div>
                         </div>
 
-                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Saving Amount: <span>00</span></h4>
-                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Remaining Balance: <span>00</span></h4>
+                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Saving Amount: <span
+                                id="saving-amount">00</span></h4>
+                        <h4 class="text-lg font-semibold text-center mb-4 mt-4">Remaining Balance: <span
+                                id="remaining-balance">00</span></h4>
 
                     </div>
 
