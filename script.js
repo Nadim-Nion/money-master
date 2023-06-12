@@ -84,6 +84,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
 
     // const updatedSavingAmount = (incomeAmount * saveAmount) / 100;
     const updatedSavingAmount = (saveAmount / 100) * updatedBalance;
+
     savingAmount.innerText = updatedSavingAmount;
 
 
