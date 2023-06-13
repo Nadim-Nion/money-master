@@ -86,7 +86,7 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
         updatedBalance();
     }
     else {
-        alert("Total expenses can't be greater than the Income");
+        alert("Total expenses can't be greater than  Income");
     }
 
 });
